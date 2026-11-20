@@ -2,6 +2,10 @@
   <img src="images/bruce-logo.png" alt="Bruce logo" width="360">
 </p>
 
+<p align="center">
+  <a href="https://github.com/umtan234/Bruce-ESP32-C3/releases/latest"><img src="https://img.shields.io/badge/Download-Latest%20Release-2ea44f?style=for-the-badge&logo=github" alt="Download Latest Release"></a>
+</p>
+
 <h1 align="center">Bruce — ESP32-C3</h1>
 
 <p align="center">
@@ -44,26 +48,25 @@
 
 ## Flashing
 
-Flash the single merged file `bruce-esp32c3-single.bin` at offset **0x0**:
+Flash the single merged file `BrucOled.bin` at offset **0x0**:
 
 **Flashing offset: `0x0`** — single file only, no separate bootloader/partitions files needed.
 
 ```bash
-nrflash write --chip esp32c3 '0x0000:bruce-esp32c3-single.bin' --verify
+nrflash write --chip esp32c3 '0x0000:BrucOled.bin' --verify
 ```
 
 ## Extra Firmware (Watch Style)
 
-Extra watch-style firmwares for the same device are in [`extra/`](extra/) — flash at offset **0x0** like the main firmware:
+Extra watch-style firmwares for the same device are in [`extra/`](extra/) — flash at offset **0x0** like the main file:
 
 | File | Description |
 |---|---|
-| [`pocket-flipper.bin`](extra/pocket-flipper.bin) | Watch style with Flipper Zero boot animation |
-| [`pocket-puter-nwatch-same-ui-single.bin`](extra/pocket-puter-nwatch-same-ui-single.bin) | NWatch same-to-same UI (11 watch faces) |
-| [`pocket-puter-final-single.bin`](extra/pocket-puter-final-single.bin) | Watch style final (Settings INFO: HACKTHON) |
+| [`flippwacth.bin`](extra/flippwacth.bin) | Watch style with Flipper Zero boot animation |
+| [`pocket-puter-nwatch-same-ui-single.bin`](extra/pocket-puter-nwatch-same-ui-single.bin) | NWatch same-UI (watch face, Bruce menus) |
+| [`pocket-puter-final-single.bin`](extra/pocket-puter-final-single.bin) | Watch style final (Settings → System → About) |
 
-## Credits
+---
 
-Based on the official [Bruce](https://github.com/pr3y/Bruce) firmware by pr3y.
-
-Ported for ESP32-C3 + SSD1306 OLED by **HACKTHON (IMRAN)**.
+Based on official [Bruce](https://github.com/pr3y/Bruce) by pr3y.  
+Ported for ESP32-C3 SuperMini + SSD1306 OLED by **HACKTHON (IMRAN)**.
