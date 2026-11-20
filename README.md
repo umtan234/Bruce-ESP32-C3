@@ -46,6 +46,8 @@
 
 Flash the single merged file `bruce-esp32c3-single.bin` at offset **0x0**:
 
+**Flashing offset: `0x0`** — single file only, no separate bootloader/partitions files needed.
+
 ```bash
 nrflash write --chip esp32c3 '0x0000:bruce-esp32c3-single.bin' --verify
 ```
