@@ -18,6 +18,12 @@
   <img src="images/device-boot.jpg" alt="Bruce 1.17 boot screen" width="360">
 </p>
 
+## 🎬 Video
+
+**[▶ Watch the video on Facebook — Esp32 c3 mini Bruce + 0.96 oled](https://m.facebook.com/groups/1405728658255539/permalink/1589455223216214/?ref=share&mibextid=NOb6eG)**
+
+Demo video of Bruce running on ESP32-C3 with a 0.96" OLED, posted by Imran Hasan in the Embedded & IoT Community / BD-VN-PH Facebook group.
+
 ## Features
 
 - **WiFi** — Scan, Beacon Spam
@@ -68,5 +74,5 @@ Extra watch-style firmwares for the same device are in [`extra/`](extra/) — fl
 
 ---
 
-Based on official [Bruce](https://github.com/pr3y/Bruce) by pr3y.  
+Based on official [Bruce](https://github.com/pr3y/Bruce) by pr3y.
 Ported for ESP32-C3 SuperMini + SSD1306 OLED by **HACKTHON (IMRAN)**.
