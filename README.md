@@ -52,6 +52,16 @@ Flash the single merged file `bruce-esp32c3-single.bin` at offset **0x0**:
 nrflash write --chip esp32c3 '0x0000:bruce-esp32c3-single.bin' --verify
 ```
 
+## Extra Firmware (Watch Style)
+
+Extra watch-style firmwares for the same device are in [`extra/`](extra/) — flash at offset **0x0** like the main firmware:
+
+| File | Description |
+|---|---|
+| [`pocket-flipper.bin`](extra/pocket-flipper.bin) | Watch style with Flipper Zero boot animation |
+| [`pocket-puter-nwatch-same-ui-single.bin`](extra/pocket-puter-nwatch-same-ui-single.bin) | NWatch same-to-same UI (11 watch faces) |
+| [`pocket-puter-final-single.bin`](extra/pocket-puter-final-single.bin) | Watch style final (Settings INFO: HACKTHON) |
+
 ## Credits
 
 Based on the official [Bruce](https://github.com/pr3y/Bruce) firmware by pr3y.
