@@ -1,3 +1,11 @@
+$$\color{red}\text{This program is still in beta stage.}$$
+$$\color{red}\text{Chương trình này vẫn đang ở giai đoạn beta.}$$
+$$\color{red}\text{Due to some problems in the firmware, there is an auto restart problem.}$$
+$$\color{red}\text{Do firmware có một số vấn đề nên có hiện tượng tự khởi động lại.}$$
+<p align="center"><small>By using this firmware, you can get the feel of Bruce, and the biggest update is coming in the future.</small></p>
+<p align="center"><small>Sử dụng firmware này, bạn có thể cảm nhận được Bruce, và bản cập nhật lớn nhất sẽ đến trong tương lai.</small></p>
+<p align="center">Code by : Enzo DIY and Hackthon</p>
+
 <p align="center">
   <img src="images/bruce-logo.png" alt="Bruce logo" width="360">
 </p>
@@ -41,7 +49,7 @@ Demo video of Bruce running on ESP32-C3 with a 0.96" OLED, posted by Imran Hasan
 
 **Flipper Zero animations:**
 
-![Flipper dolphin Sleep animation](images/flipper-anim-sleep.gif) ![Flipper dolphin Waves animation](images/flipper-anim-waves.gif) ![Flipper dolphin Boxing animation](images/flipper-anim-boxing.gif) ![Flipper dolphin ReadBooks animation](images/flipper-anim-readbooks.gif) ![Flipper dolphin Furippa animation](images/flipper-anim-furippa.gif)
+![Flipper dolphin Sleep animation](images/flipper-anim-sleep.gif)
 
 ## Hardware
 
@@ -56,6 +64,11 @@ Demo video of Bruce running on ESP32-C3 with a 0.96" OLED, posted by Imran Hasan
 
 ![Wiring diagram](images/wiring-diagram.webp)
 
+**Next update:** In the next update, NRF24 will also be included.
+Trong bản cập nhật tiếp theo, NRF24 cũng sẽ có.
+
+![NRF24 next update wiring](images/nrf24-next-update.jpg)
+
 ## Controls
 
 - **Left / Right** — Navigate
@@ -64,13 +77,15 @@ Demo video of Bruce running on ESP32-C3 with a 0.96" OLED, posted by Imran Hasan
 
 ## Flashing
 
-Flash the single merged file `BrucOled.bin` at offset **0x0**:
+Flash the single merged file `BrucOled-beta.bin` at offset **0x0**:
 
 **Flashing offset: `0x0`** — single file only, no separate bootloader/partitions files needed.
 
 ```bash
-nrflash write --chip esp32c3 '0x0000:BrucOled.bin' --verify
+nrflash write --chip esp32c3 '0x0000:BrucOled-beta.bin' --verify
 ```
+
+For web flashing, use the [Dănutz - DIY](https://danutz-diy.com/) tool.
 
 ## Extra Firmware (Watch Style)
 
@@ -78,11 +93,13 @@ Extra watch-style firmwares for the same device are in [`extra/`](extra/) — fl
 
 | File | Description |
 |---|---|
-| [`flippwacth.bin`](extra/flippwacth.bin) | Watch style with Flipper Zero boot animation |
-| [`pocket-puter-nwatch-same-ui-single.bin`](extra/pocket-puter-nwatch-same-ui-single.bin) | NWatch same-UI (watch face, Bruce menus) |
-| [`pocket-puter-final-single.bin`](extra/pocket-puter-final-single.bin) | Watch style final (Settings → System → About) |
+| [`flippwacth-beta.bin`](extra/flippwacth-beta.bin) | Watch style with Flipper Zero boot animation |
+| [`pocket-puter-nwatch-same-ui-single-beta.bin`](extra/pocket-puter-nwatch-same-ui-single-beta.bin) | NWatch same-UI (watch face, Bruce menus) |
+| [`pocket-puter-final-single-beta.bin`](extra/pocket-puter-final-single-beta.bin) | Watch style final (Settings → System → About) |
 
 ---
 
 Based on official [Bruce](https://github.com/pr3y/Bruce) by pr3y.
 Ported for ESP32-C3 SuperMini + SSD1306 OLED by **HACKTHON (IMRAN)**.
+
+Credit: [DevEclipse1](https://github.com/DevEclipse1)
