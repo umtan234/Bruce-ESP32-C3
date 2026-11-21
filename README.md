@@ -33,6 +33,16 @@ Demo video of Bruce running on ESP32-C3 with a 0.96" OLED, posted by Imran Hasan
 - **Others** — Buzzer
 - **Config** — Display & UI, System Config, About
 
+## Boot Animations
+
+**Bruce boot animation:**
+
+![Bruce shark boot animation](images/bruce-shark-animation.gif)
+
+**Flipper Zero animations:**
+
+![Flipper dolphin Sleep animation](images/flipper-anim-sleep.gif) ![Flipper dolphin Waves animation](images/flipper-anim-waves.gif) ![Flipper dolphin Boxing animation](images/flipper-anim-boxing.gif) ![Flipper dolphin ReadBooks animation](images/flipper-anim-readbooks.gif) ![Flipper dolphin Furippa animation](images/flipper-anim-furippa.gif)
+
 ## Hardware
 
 | Component | Detail |
