@@ -44,7 +44,7 @@ Demo video of Bruce running on ESP32-C3 with a 0.96" OLED, posted by Imran Hasan
 
 ## Wiring
 
-![Wiring diagram](images/wiring-diagram.png)
+![Wiring diagram](images/wiring-diagram.webp)
 
 ## Controls
 
