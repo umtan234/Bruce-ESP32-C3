@@ -99,6 +99,10 @@ Extra watch-style firmwares for the same device are in [`extra/`](extra/) — fl
 
 `flippy`
 
+[flippwacth demo video](videos/flippwacth-demo.mp4)
+
+[`flippwacth`](extra/flippwacth-beta.bin)
+
 ---
 
 Based on official [Bruce](https://github.com/pr3y/Bruce) by pr3y.
