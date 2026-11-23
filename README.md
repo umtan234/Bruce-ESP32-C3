@@ -93,9 +93,7 @@ Extra watch-style firmwares for the same device are in [`extra/`](extra/) — fl
 
 | File | Description |
 |---|---|
-| [`flippwacth-beta.bin`](extra/flippwacth-beta.bin) | Watch style with Flipper Zero boot animation |
-| [`pocket-puter-nwatch-same-ui-single-beta.bin`](extra/pocket-puter-nwatch-same-ui-single-beta.bin) | NWatch same-UI (watch face, Bruce menus) |
-| [`pocket-puter-final-single-beta.bin`](extra/pocket-puter-final-single-beta.bin) | Watch style final (Settings → System → About) |
+| [`BrucOled-beta.bin`](BrucOled-beta.bin) | Bruce firmware (1.17 style) for ESP32-C3 with SSD1306 OLED |
 
 ---
 
