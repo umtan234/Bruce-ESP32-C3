@@ -95,6 +95,10 @@ Extra watch-style firmwares for the same device are in [`extra/`](extra/) — fl
 |---|---|
 | [`BrucOled-beta.bin`](BrucOled-beta.bin) | Bruce firmware (1.17 style) for ESP32-C3 with SSD1306 OLED |
 
+![flippy](images/flippy-device.jpg)
+
+`flippy`
+
 ---
 
 Based on official [Bruce](https://github.com/pr3y/Bruce) by pr3y.
