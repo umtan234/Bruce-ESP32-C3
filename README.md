@@ -89,19 +89,11 @@ For web flashing, use the [Dănutz - DIY](https://danutz-diy.com/) tool.
 
 ## Extra Firmware (Watch Style)
 
-Extra watch-style firmwares for the same device are in [`extra/`](extra/) — flash at offset **0x0** like the main file:
+Extra watch-style firmware for the same device — flash at offset **0x0** like the main file:
 
 | File | Description |
 |---|---|
 | [`BrucOled-beta.bin`](BrucOled-beta.bin) | Bruce firmware (1.17 style) for ESP32-C3 with SSD1306 OLED |
-
-![flippy](images/flippy-device.jpg)
-
-`flippy`
-
-[flippwacth demo video](videos/flippwacth-demo.mp4)
-
-[`flippwacth`](extra/flippwacth-beta.bin)
 
 ---
 
