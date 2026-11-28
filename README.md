@@ -1,9 +1,6 @@
 $$\color{red}\text{This program is still in beta stage.}$$
-$$\color{red}\text{Chương trình này vẫn đang ở giai đoạn beta.}$$
 $$\color{red}\text{Due to some problems in the firmware, there is an auto restart problem.}$$
-$$\color{red}\text{Do firmware có một số vấn đề nên có hiện tượng tự khởi động lại.}$$
 <p align="center"><small>By using this firmware, you can get the feel of Bruce, and the biggest update is coming in the future.</small></p>
-<p align="center"><small>Sử dụng firmware này, bạn có thể cảm nhận được Bruce, và bản cập nhật lớn nhất sẽ đến trong tương lai.</small></p>
 <p align="center">Code by : Enzo DIY and Hackthon</p>
 
 <p align="center">
@@ -65,7 +62,6 @@ Demo video of Bruce running on ESP32-C3 with a 0.96" OLED, posted by Imran Hasan
 ![Wiring diagram](images/wiring-diagram.webp)
 
 **Next update:** In the next update, NRF24 will also be included.
-Trong bản cập nhật tiếp theo, NRF24 cũng sẽ có.
 
 ![NRF24 next update wiring](images/nrf24-next-update.jpg)
 
